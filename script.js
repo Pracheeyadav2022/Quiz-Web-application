@@ -114,7 +114,7 @@ function showScore(){
     
 }
 
-fuction handleNextButton(){
+function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
         showQuestion();
@@ -125,8 +125,8 @@ fuction handleNextButton(){
 
 }
 
-nextButton.addEventListener("click". ()=>{
-    if(cureentQuestionIndex < question.length){
+nextButton.addEventListener("click", ()=>{
+    if(cureentQuestionIndex < questions.length){
         handleNextButton();
 
     }else{
